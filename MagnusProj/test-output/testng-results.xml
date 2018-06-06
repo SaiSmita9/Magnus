@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="164608" started-at="2018-05-30T06:04:43Z" finished-at="2018-05-30T06:07:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="164608" started-at="2018-05-30T06:04:43Z" finished-at="2018-05-30T06:07:28Z">
+      <class name="com.jala.testsuites.LoginTest">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:com.jala.testsuites.LoginTest@1a5c39e]" name="setupApplication" is-config="true" duration-ms="12556" started-at="2018-05-30T11:37:01Z" finished-at="2018-05-30T11:37:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="loginAdminwithINValid()[pri:0, instance:com.jala.testsuites.LoginTest@1a5c39e]" name="loginAdminwithINValid" duration-ms="2008" started-at="2018-05-30T11:37:14Z" finished-at="2018-05-30T11:37:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAdminwithINValid -->
+        <test-method status="PASS" signature="loginAdminwithValid()[pri:0, instance:com.jala.testsuites.LoginTest@1a5c39e]" name="loginAdminwithValid" duration-ms="12221" started-at="2018-05-30T11:37:16Z" finished-at="2018-05-30T11:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAdminwithValid -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.jala.testsuites.LoginTest@1a5c39e]" name="closeApplication" is-config="true" duration-ms="0" started-at="2018-05-30T11:37:28Z" finished-at="2018-05-30T11:37:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.jala.testsuites.LoginTest -->
+      <class name="com.jala.testsuites.MoreTest">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:com.jala.testsuites.MoreTest@102b3b1]" name="setupApplication" is-config="true" duration-ms="26032" started-at="2018-05-30T11:34:43Z" finished-at="2018-05-30T11:35:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="autoCompleteTab()[pri:0, instance:com.jala.testsuites.MoreTest@102b3b1]" name="autoCompleteTab" duration-ms="3007" started-at="2018-05-30T11:35:09Z" finished-at="2018-05-30T11:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoCompleteTab -->
+        <test-method status="PASS" signature="collapsibleContentTab()[pri:0, instance:com.jala.testsuites.MoreTest@102b3b1]" name="collapsibleContentTab" duration-ms="3002" started-at="2018-05-30T11:35:12Z" finished-at="2018-05-30T11:35:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collapsibleContentTab -->
+        <test-method status="PASS" signature="validloginAdmin()[pri:0, instance:com.jala.testsuites.MoreTest@102b3b1]" name="validloginAdmin" duration-ms="13226" started-at="2018-05-30T11:35:15Z" finished-at="2018-05-30T11:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validloginAdmin -->
+        <test-method status="PASS" signature="moreOptions()[pri:0, instance:com.jala.testsuites.MoreTest@102b3b1]" name="moreOptions" duration-ms="3854" started-at="2018-05-30T11:35:29Z" finished-at="2018-05-30T11:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moreOptions -->
+        <test-method status="PASS" signature="multipleTabs()[pri:0, instance:com.jala.testsuites.MoreTest@102b3b1]" name="multipleTabs" duration-ms="13299" started-at="2018-05-30T11:35:32Z" finished-at="2018-05-30T11:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleTabs -->
+        <test-method status="PASS" signature="menuTab()[pri:0, instance:com.jala.testsuites.MoreTest@102b3b1]" name="menuTab" duration-ms="75315" started-at="2018-05-30T11:35:46Z" finished-at="2018-05-30T11:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuTab -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.jala.testsuites.MoreTest@102b3b1]" name="closeApplication" is-config="true" duration-ms="0" started-at="2018-05-30T11:37:01Z" finished-at="2018-05-30T11:37:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.jala.testsuites.MoreTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,7 @@
+15:49:09,579 DEBUG devpinoyLogger:13 – Getting errors
+15:49:09,616  INFO devpinoyLogger:14 – Testing the log
+15:49:09,620 ERROR devpinoyLogger:31 – Exception is caught
+java.lang.ArithmeticException: / by zero
+	at com.jala.log4j.Log4jProject.main(Log4jProject.java:20)
+15:49:09,721 DEBUG devpinoyLogger:36 – Getting errors
+15:49:09,722  INFO devpinoyLogger:37 – Testing the log

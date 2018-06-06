@@ -1,0 +1,7 @@
+04/06/2018 15:49:09 devpinoyLogger Getting errors
+04/06/2018 15:49:09 devpinoyLogger Testing the log
+04/06/2018 15:49:09 devpinoyLogger Exception is caught
+java.lang.ArithmeticException: / by zero
+	at com.jala.log4j.Log4jProject.main(Log4jProject.java:20)
+04/06/2018 15:49:09 devpinoyLogger Getting errors
+04/06/2018 15:49:09 devpinoyLogger Testing the log
